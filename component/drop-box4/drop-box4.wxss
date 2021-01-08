@@ -1,0 +1,39 @@
+
+.menuBox{
+  margin-left:40rpx;
+   position:relative;
+   width:240rpx;
+   line-height:40rpx;
+   
+ }
+ .menu{
+   line-height:40rpx;
+   border:1rpx #ccc solid;
+   padding:0 20rpx;
+   color: rgb(102, 98, 98);
+   /* border-radius: 10rpx; */
+ }
+ .val{
+   width: 239rpx;
+   position:absolute;
+   top:40rpx;
+   background-color: white;
+   height:100rpx;
+   z-index:99;
+   border: 1rpx solid #ccc;
+ }
+ .txt{
+   line-height:50rpx;
+   width:239rpx;
+   text-align: center;
+ }
+ .arrow{
+  top: 4rpx;
+  left: 200rpx;
+  font-weight: 600;
+  position: absolute;
+  color: rgb(102, 98, 98);
+}
+.txt:hover{
+  background-color: rgb(30,144,255);
+}

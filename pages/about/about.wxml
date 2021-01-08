@@ -1,0 +1,6 @@
+<view class="Box">
+  <view class="author">Presented by</view>
+  <view class="special">夏俊豪</view>
+  <view class="special">杨凌</view>
+  <view class="special">文嘉龙</view>
+</view>

@@ -1,0 +1,151 @@
+.Box{
+  background-color: rgb(246, 250, 250);
+  height: 750px;
+}
+.name{
+  margin-top: 5rpx;
+  margin-left: 83rpx;
+  color: grey;
+}
+.logout{
+  width: 85rpx;
+  position: absolute;
+  display: inline;
+  right: 20rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  border: 3rpx solid black;
+  
+}
+/* .cancel:not([size='mini']){
+  height: 30rpx;
+  width: 15rpx;
+} */
+.id{
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+.split{
+  width: 100%;
+  height: 15rpx;
+  background-color: #EDEDED;
+}
+.function{
+  margin-top:20rpx;
+}
+.info{
+  margin-left: 20rpx;
+}
+.count{
+  display: inline;
+  position: absolute;
+  right: 20rpx;
+}
+.seat{
+  margin-left: 20rpx;
+  margin-top: 15rpx;
+}
+.func-box{
+  width: 100%;
+  height: 300rpx;
+  position: relative;
+}
+.check-in{
+  position: absolute;
+  top: 40rpx;
+  left: 100rpx;
+  width: 200rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  color: #fff;
+  background-color: #1A88F7;
+  border:1rpx double rgb(111, 128, 123);
+  border-radius: 10rpx;
+}
+.cancel{
+  position: absolute;
+  display: inline;
+  width: 200rpx;
+  height: 100rpx;
+  top: 40rpx;
+  right: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  
+  color: #fff;
+  background-color: #1A88F7;
+  border:1rpx double rgb(111, 128, 123);
+  border-radius: 10rpx;
+}
+.continue{
+  position: absolute;
+  left: 100rpx;
+  top: 190rpx;
+  width: 200rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  color: #fff;
+  background-color: #1A88F7;
+  border:1rpx double rgb(111, 128, 123);
+  border-radius: 10rpx;
+}
+.exit{
+  position: absolute;
+  display: inline;
+  position: absolute;
+  width: 200rpx;
+  height: 100rpx;
+  top: 190rpx;
+  right: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  color: #fff;
+  background-color: #1A88F7;
+  border:1rpx double rgb(111, 128, 123);
+  border-radius: 10rpx;
+}
+.space{
+  width: 100%;
+  height: 35rpx;
+}
+.box{
+  width: 100%;
+  height: 84rpx;
+  position: relative;
+  border-bottom: 1rpx solid #EDEDED;
+}
+.img{
+  width: 50rpx;
+  height: 50rpx;
+  top: 17rpx;
+  left: 20rpx;
+  position: absolute;
+}
+.recent{
+  position: absolute;
+  top: 20rpx;
+  left: 100rpx;
+}
+.score{
+  position: absolute;
+  top: 20rpx;
+  left: 100rpx;
+}
+.contact{
+  position: absolute;
+  top: 20rpx;
+  left: 100rpx;
+}
+.about{
+  position: absolute;
+  top: 20rpx;
+  left: 100rpx;
+}
+.enter{
+  display: inline;
+  position: absolute;
+  right: 40rpx;
+  top: 20rpx;
+}

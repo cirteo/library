@@ -1,0 +1,45 @@
+
+.Box{
+  background-color: rgb(246, 250, 250);
+  height: 1000px;
+}
+.img{
+  width: 439rpx;
+  height: 409rpx;
+  margin-left: 150rpx;
+
+}
+.space{
+  width: 100%;
+  height: 70rpx;
+}
+.studentid {
+  display: flex;
+  flex-direction: row;
+  font-size: 32rpx;
+  background-color: rgb(214, 247, 221);
+  padding: 28rpx;
+  margin: 28rpx;
+  align-items: center;
+  border-radius:25rpx;
+}
+.student-text {
+  width: 124rpx;
+  padding-right: 28rpx;
+  color: rgb(124, 124, 124);
+  font-weight: 600;
+}
+
+.inputtext {
+  width: 300rpx;
+}
+.submitxxx {
+  margin-top: 54rpx;
+  color: #fff;
+  background-color: #75cdf7;
+}
+.cls{
+  height: 50rpx;
+  position: absolute;
+  right: 75rpx;
+}

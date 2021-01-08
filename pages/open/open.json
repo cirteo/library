@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "library":"../../component/drop-box4/drop-box4",
+    "floor":"../../component/drop-box5/drop-box5"
+  }
+}

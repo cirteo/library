@@ -1,0 +1,13 @@
+<view class="Box">
+  <view class="header">
+    <view bindtap="search" class="search">
+    <image src="../../img/search.jpg" class="img" bindtap="search"></image>
+  </view>
+    <input class="input" placeholder="搜索学生" bindinput="getId"></input>
+  </view>
+  <view class="list" wx:for="{{array}}">
+    <text class="name" >{{item.stuName}}</text>
+    <view class="id">{{item.stuNum}}</view>
+    <view class="unblock" bindtap="unblock" data-index="{{item.stuNum}}">解封</view>
+  </view>
+</view>

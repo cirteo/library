@@ -1,0 +1,13 @@
+.Box{
+  background-color: rgb(246, 250, 250);
+  height: 1000px;
+  position: relative;
+}
+.email{
+  position: absolute;
+  font-size: larger;
+  font-weight: 800;
+  text-align: center;
+  left: 60rpx;
+  top: 200rpx;
+}

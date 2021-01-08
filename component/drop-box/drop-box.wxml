@@ -1,0 +1,11 @@
+
+  <view wx:for="{{menus}}">
+    <view class="menuBox">
+      <view class="menu" bindtap="menu" id="{{index}}">{{item.defaults}}</view>
+      <text class="arrow">∨</text>
+      <view class="val" hidden="{{item.hiddens}}" bindtap="txt" data-index="{{index}}">
+        <view class="txt" wx:for="{{item.txt}}" wx:for-item="item_txt" data-txt="{{item_txt.lis}}"
+          data-id="{{index}}">{{item_txt.lis}}</view>
+      </view>
+    </view>
+  </view>

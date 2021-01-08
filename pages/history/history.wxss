@@ -1,0 +1,22 @@
+.Box{
+  background-color: rgb(246, 250, 250);
+  height: 1000px;
+}
+.box{
+  width: 100%;
+  height: 100rpx;
+  position: relative;
+}
+.position{
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  margin-left: 20rpx;
+}
+.date{
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  position: absolute;
+  right: 20rpx;
+}

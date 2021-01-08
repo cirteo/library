@@ -1,0 +1,13 @@
+<view class="Box">
+  <view class="select">
+    <library class="lib"></library>
+    <floor class="flr"></floor>
+  </view>
+  <picker mode="date" value="{{startdateValue}}" start="1999-01-01" end="2999-12-12" bindchange="startdatePickerBindchange" class="picker">
+    关闭起始日期: {{startdateValue}} 
+  </picker>
+  <picker mode="date" value="{{enddateValue}}" start="1999-01-01" end="2999-12-12" bindchange="enddatePickerBindchange" class="picker">
+    关闭结束日期: {{enddateValue}} 
+  </picker>
+  <view class="notify" bindtap="close">关闭</view>
+</view>

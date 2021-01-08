@@ -1,0 +1,41 @@
+
+.menuBoxl{
+  margin-left:40rpx;
+   position:relative;
+   width:170rpx;
+   line-height:40rpx;
+   
+ }
+ .menul{
+   line-height:40rpx;
+   border:1rpx #ccc solid;
+   padding:0 20rpx;
+   color: rgb(102, 98, 98);
+   /* border-radius: 10rpx; */
+ }
+ .vall{
+   width: 169rpx;
+   position:absolute;
+   top:40rpx;
+   background-color: white;
+   height:250rpx;
+   z-index:99;
+   border: 1rpx solid #ccc;
+ }
+ .txtl{
+   line-height:50rpx;
+   width:168rpx;
+   text-align: center;
+ }
+ .arrowl{
+  top: 4rpx;
+  left: 125rpx;
+  font-weight: 600;
+  position: absolute;
+  color: rgb(102, 98, 98);
+}
+.txtl:hover{
+  background-color: rgb(30,144,255);
+}
+
+

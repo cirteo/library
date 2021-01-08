@@ -1,0 +1,22 @@
+<view class="Box">
+  <select class="library"></select>
+  <drop-box class="floor"></drop-box>
+  <view class="Big-box">
+    <view bindtap="clickA">
+      <image src="../../img/lib.png" class="box"></image>
+      <text class="position">A区</text>
+    </view>
+    <view bindtap="clickB">
+      <image src="../../img/lib2.jpg" class="box"></image>
+      <text class="position2">B区</text>
+    </view>
+    <view bindtap="clickC">
+      <image src="../../img/lib3.jpg" class="box"></image>
+      <text class="position3">C区</text>
+    </view>
+    <view bindtap="clickD">
+      <image src="../../img/lib4.jpg" class="box"></image>
+      <text class="position4">D区</text>
+    </view>
+  </view>
+</view>

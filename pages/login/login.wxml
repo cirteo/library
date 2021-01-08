@@ -1,0 +1,19 @@
+<view class="Box">
+	<view>
+		<image src="../../img/swpu.jpg" class="img" mode="aspectFile"></image>
+	</view>
+
+	<view class="space"></view>
+	<view class='studentid'>
+		<view class='student-text'>学号 |</view>
+		<input name='username' class='inputtext' bindinput="getUser" placeholder='请输入学号' type='number'
+			maxlength='12'></input>
+		<select class="cls" bindEvent="MyEvent"></select>
+	</view>
+	<view class='studentid'>
+		<view class='student-text'>密码 |</view>
+		<input name='password' class='inputtext' bindinput="getPwd" placeholder='请输入密码' password='true'></input>
+	</view>
+	<button class='submitxxx' wx:if="{{!userInfo}}" open-type="getUserInfo"
+		formType="submit" bindtap="login"> 登陆 </button>
+</view>

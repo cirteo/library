@@ -1,0 +1,7 @@
+<view class="Box">
+  <image src="../../img/swpu.jpg" class="img" mode="aspectFit"></image>
+  <view class="space"></view>
+  <button class="btn" bindtap="region">编辑座位状态</button>
+  <button class="btn" bindtap="blackroom">小黑屋管理</button>
+  <button class="btn" bindtap="library">图书馆开放</button>
+</view>

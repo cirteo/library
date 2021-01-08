@@ -1,0 +1,9 @@
+<view class="Box">
+  <view class="current">当前积分：{{score}}</view>
+  <view class="record">违规记录：</view>
+  <view class="detail" wx:for="{{array}}">
+    <text class="date">{{item.historyTime}}</text>
+    <text class="action">{{item.record}}</text>
+    <text class="change">-1</text>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<view class="Box">
+  <swiper indicator-dots="true" autoplay="true" circular="ture" interval="1500" class="swiper">
+    <swiper-item><image src="../../img/lib.png" class="img"></image></swiper-item>
+    <swiper-item><image src="../../img/lib2.jpg" class="img"></image></swiper-item>
+    <swiper-item><image src="../../img/lib3.jpg" class="img"></image></swiper-item>
+  </swiper>
+  <view>
+    <view class="select" bindtap="region">自由选座</view>
+    <view class="random" bindtap="random">随机选座</view>
+  </view>
+  <modal hidden="{{hiddenmodalput}}" title="随机座位信息为：{{seatLoc}}" confirm-text="确定" cancel-text="取消" 
+  bindcancel="cancel" bindconfirm="confirm"></modal>
+</view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "select":"../../component/drop-box2/drop-box2",
+    "drop-box":"../../component/drop-box3/drop-box3"
+  }
+}

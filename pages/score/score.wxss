@@ -1,0 +1,34 @@
+.Box{
+  background-color: rgb(246, 250, 250);
+  height: 1000px;
+}
+.current{
+  margin-left: 30rpx;
+}
+.record{
+  margin-left: 30rpx;
+  margin-top: 25rpx;
+  margin-bottom: 25rpx;
+}
+.detail{
+  width: 600rpx;
+  margin-left: 30rpx;
+  height: 70rpx;
+  position: relative;
+}
+.date{
+  text-align: center;
+  line-height: 70rpx;
+}
+.action{
+  left: 390rpx;
+  position: absolute;
+  text-align: center;
+  line-height: 70rpx;
+}
+.change{
+  position: absolute;
+  right: 0rpx;
+  text-align: center;
+  line-height: 70rpx;
+}

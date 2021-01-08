@@ -1,0 +1,42 @@
+.Box{
+  background-color: rgb(246, 250, 250);
+  height: 1000px;
+  position: relative;
+}
+.swiper{
+  /* margin: 100rpx auto; */
+  width: 600rpx;
+  height: 350rpx;
+  position: absolute;
+  top: 35rpx;
+  left: 80rpx;
+}
+.img{
+  border-radius: 35rpx;
+  width: 600rpx;
+  height: 350rpx;  
+}
+.select{
+  position: absolute;
+  top: 580rpx;
+  left: 240rpx;
+  width: 270rpx;
+  height: 100rpx;
+  background-color: #1989F9;
+  color: white;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 8rpx;
+}
+.random{
+  position: absolute;
+  top: 760rpx;
+  left: 240rpx;
+  width: 270rpx;
+  height: 100rpx;
+  background-color: #1989F9;
+  color: white;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 8rpx;
+}

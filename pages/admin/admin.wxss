@@ -1,0 +1,22 @@
+.Box{
+  background-color: rgb(246, 250, 250);
+  height: 750px;
+}
+.img{
+  width: 500rpx;
+  height: 500rpx;
+  margin-left: 125rpx;
+}
+.space{
+  width: 100%;
+  height: 100rpx;
+}
+.btn{
+  width: 200rpx;
+  height: 100rpx;
+  background-color: #07C160;
+  margin-top: 40rpx;
+  text-align: center;
+  line-height: 66rpx;
+  color: white;
+}

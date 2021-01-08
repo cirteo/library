@@ -1,0 +1,6 @@
+<view class="Box">
+  <view class="box" wx:for="{{array}}">
+    <text class="position">{{item.seatLoc}}</text>
+    <text class="date">{{item.historyTime}}</text>
+  </view> 
+</view>

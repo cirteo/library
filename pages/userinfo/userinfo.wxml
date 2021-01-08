@@ -1,0 +1,43 @@
+<view class="Box">
+  <view class="header">
+    <text class="name">{{name}}</text>
+    <view class="logout" bindtap="logout">注销</view>
+    <view class="id">{{id}}</view>
+  </view>
+  <view class="split"></view>
+  <view class="function">
+    <text class="info">当前预约信息：</text>
+    <view class="count">{{text}}</view>
+    <view class="seat">{{seatLoc}}</view>
+    <view class="func-box">
+      <view class="check-in" bindtap="func_checkIn" style="background:{{color}};">签到</view>
+      <view class="cancel" bindtap="cancel">取消</view>
+      <view class="continue" bindtap="func_continue">续座</view>
+      <view class="exit" bindtap="exit">签退</view>
+    </view>
+  </view>
+  <view class="space"></view>
+  <view class="split"></view>
+  <view class="other_function">
+    <view class="box" bindtap="func_recent">
+      <image src="../../img/recent.png" class="img"></image>
+      <view class="recent">最近预约</view>
+      <text class="enter">></text>
+    </view>
+    <view class="box" bindtap="func_score">
+      <image src="../../img/score.png" class="img"></image>
+      <view class="score">信誉积分</view>
+      <text class="enter">></text>
+    </view>
+    <view class="box" bindtap="func_contact">
+      <image src="../../img/contact.png" class="img"></image>
+      <view class="contact">联系管理员</view>
+      <text class="enter">></text>
+    </view>
+    <view class="box" bindtap="func_about">
+      <image src="../../img/about.png" class="img"></image>
+      <view class="about">关于我们</view>
+      <text class="enter">></text>
+    </view>
+  </view>
+</view>
